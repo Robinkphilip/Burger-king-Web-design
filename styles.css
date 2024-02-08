@@ -8,9 +8,11 @@
   margin: 0;
   padding: 0;
   background-color: rgb(245, 234, 220);
+  font-family: 'Caprasimo', serif;
 }
 .nav-bar-main {
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 104px;
   padding-left: 120px;
@@ -26,6 +28,9 @@
   align-items: center;
   justify-content: space-between;
 }
+/* .nav-icon-section:last-child{
+    justify-content: end;
+} */
 .sign-up-in {
   width: 114.999px;
   height: 34px;
@@ -33,9 +38,8 @@
   border: none;
   border-radius: 20px;
   color: #ffffff;
-  font-size: 12px;
-  font-family: "Flame-Regular";
-  font-weight: 600;
+  font-size: 10px;
+  font-weight: 200;
   line-height: 18px;
 }
 .sign-up-in:hover{
@@ -57,9 +61,142 @@
 .cart-count-btn:hover{
     background-color: rgb(139, 35, 14);
 }
+.location-section{
+    display: flex;
+    flex-direction: row;
+    width: 1196px;
+    height: 48px;
+    align-items: center;
+    color:  #502314;
+    margin-left: 10px;
+}
+.location-section > i{
+    margin-right: 5px;
+}
+.location-section > h4{
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.location-section > u{
+    margin-right: 5px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+}
+
 .main-section {
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pick-up-delivery{
+    width: 400px;
+    height: 383px;
+    padding: 48px 48px ;
+    padding-right: 28px;
+     
+}
+.pick-up-delivery > h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:  rgb(80,34,21);
+}
+.opening-section{
+  display: flex;
+  width: 1140px;
   height: 383px;
   margin-top: 104px;
-  background-color: aliceblue;
+   padding-left: 120px;
+  padding-right: 120px;
+}
+.pick-up-order-icons{
+    width:300px ;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+.order-btn{
+    width: 300px;
+    height: 55px;
+    background-color: #D62300;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+ .extra{
+ background-color: rgb(245, 234, 220);
+ color:  #D62300;
+ border: 1px solid  #D62300 ;
+}
+.offer-card-container{
+    width: 1440px;
+    height: 900px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    flex-direction: row;
+}
+.offer-card{
+    width: 588px;
+    height: 521px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px ;
+    box-shadow: 0 4px 8px rgba(10, 10, 10, 0.1);
+}
+.offer-card > img{
+    width: 588px;
+    height: 294px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
+}
+.card-text-container{
+    width: 588px;
+    height: 227px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #502314;
+     border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.card-text-container >h2{
+    font-weight: 100;
+    font-size: 25px;
+    background-color: #ffffff;
+}
+.card-text-container >h5{
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+}
+.card-text-container >u{
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+}
+.now-btn{
+    width: 548px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.now-btn>button{
+    width: 101px;
+    height: 39px;
+    border-radius: 20px;
+    border: 1px solid #D62300;
+    color:#D62300 ;
+    background-color: #ffffff;
 }
