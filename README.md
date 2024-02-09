@@ -29,7 +29,7 @@ This project aims to replicate the layout and design of the Burger King website'
 .git
 2.Navigate to the project directory:
    ```bash
-   cd Burger-king-Web-design
+   cd burger-king-Web-design
    ```
 ## Usage
 
