@@ -25,10 +25,11 @@ This project aims to replicate the layout and design of the Burger King website'
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/burger-king-clone.git
+   git clone https://github.com/your-username/burger-king-Web-design
+.git
 2.Navigate to the project directory:
    ```bash
-   cd burger-king-clone
+   cd Burger-king-Web-design
    ```
 ## Usage
 
