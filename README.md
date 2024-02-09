@@ -2,6 +2,11 @@
 
 This project is a simple clone of the Burger King website's homepage design, created solely for study purposes. It was developed using HTML and CSS, extensively utilizing Flexbox for layout. Please note that this clone is not responsive.
 
+## Hosted Demo
+
+You can view a live demo of the Burger King website clone [here](https://robinkphilip.github.io/Burger-king-Web-design/).
+
+
 ## Table of Contents
 
 - [Description](#description)
